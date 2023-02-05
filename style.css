@@ -23,12 +23,13 @@ body {
 .grid-container > button {
     cursor: pointer;
     font-size: 2rem;
-    border: 1px solid #111;
+    border: none;
     outline: none;
     background: #111;
     color: #eee;
 
 }
+
 
 .grid-container > .operator {
     background: #41b88375;
@@ -50,3 +51,12 @@ body {
     word-break: break-all;
 }
 
+.grid-container > .output > .previous-operand {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+}
+
+.grid-container > .output > .current-operand {
+    color: white;
+    font-size: 2.5rem;
+}
